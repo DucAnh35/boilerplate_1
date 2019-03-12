@@ -23,6 +23,9 @@
   <!-- build:css(.) style/vendor.min.css -->
 <link rel="stylesheet" type="text/css" media="screen" href="node_modules/bootstrap/dist/css/bootstrap.css" />
 <!-- endbuild -->
+<!-- slick -->
+<link rel="stylesheet" type="text/css" media="screen" href="node_modules/slick-carousel/slick/slick.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="node_modules/slick-carousel/slick/slick-theme.css" />
 <!-- font-awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <!-- build:css(.tmp) style/style.min.css -->
@@ -142,7 +145,7 @@
             </div>
         </section>
     <!-- include slider.html -->
-    <section class="b-page-slide">
+    <section class="b-page-slide" id="slider">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
@@ -161,7 +164,7 @@
 
                                     </p>
                                     <p class="p-current">
-                                        <span class="b-person">- Michael Dawson, San Francisco, CA -</span>
+                                        <i class="b-person">- Michael Dawson, San Francisco, CA -</i>
                                     </p>
                                 </div>
                             </div>
@@ -179,7 +182,7 @@
 
                                             </p>
                                             <p class="b-current">
-                                                <span class="b-person">- Michael Dawson, San Francisco, CA -</span>
+                                                <i class="b-person">- Michael Dawson, San Francisco, CA -</i>
                                             </p>
                                         </div>
                                     </div>
@@ -197,7 +200,7 @@
 
                                                     </p>
                                                     <p class="b-current">
-                                                        <span class="b-person">- Michael Dawson, San Francisco, CA -</span>
+                                                        <i class="b-person">- Michael Dawson, San Francisco, CA -</i>
                                                     </p>
                                                 </div>
                                             </div>
@@ -316,8 +319,12 @@
 <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
 <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 <!-- endbuild -->
+<!-- slick -->
+<script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
 <!-- build:js script/script.min.js -->
 <script type="text/javascript" src="scripts/script.js"></script>
 <!-- endbuild -->
+
+
 </body>
 </html>

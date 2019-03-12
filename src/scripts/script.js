@@ -11,3 +11,13 @@ $(document).ready(function () {
         }
     })
 });
+
+$(document).on('ready', function () {
+   
+    $(".lazy-item-1").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true,
+        dots: true,
+    });
+    
+});
