@@ -1,0 +1,22 @@
+.b-page-cussines {
+    padding-top: 50px;
+    
+    .heading-title {
+        padding-bottom: 50px;
+        @include rem("font-size",18);
+        font-family: $ff_text;
+        color: $cl_text_2;
+        font-weight: bold;
+        
+        &.inline-1::after {
+            content: ' ';
+            width: 80px;
+            height: 2px;
+            background-color: #FA5882;
+            position: absolute;
+            bottom: 45px;
+            left: 43%;
+            border-radius: 100%;
+        }
+    }
+}
