@@ -23,6 +23,9 @@
   <!-- build:css(.) style/vendor.min.css -->
 <link rel="stylesheet" type="text/css" media="screen" href="node_modules/bootstrap/dist/css/bootstrap.css" />
 <!-- endbuild -->
+<!-- slick -->
+<link rel="stylesheet" type="text/css" media="screen" href="node_modules/slick-carousel/slick/slick.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="node_modules/slick-carousel/slick/slick-theme.css" />
 <!-- font-awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <!-- build:css(.tmp) style/style.min.css -->
@@ -108,100 +111,80 @@
                         <img src="/src/images/background_ip.png" alt="" width="100%" class="img-2"></div>
                     </div>
                     <div class="col-lg-7">
-                        <div class="title">
-                            <h4 class="title-introduc inline-1">
-                                INTRODUCING THE FUDI APP
-                            </h4>
-                        </div>
-                        <div class="text">
-                            <p class="b-text">
-                                Morbi eget posuere dolor. Pellentesque cursus aliquet aliquet. Aeneanet felis
-                                sit amet diam mollis ullamcorper. Nullam consequat sem a ante vest ibulum
-                                tristique. Suspendisse tristique lacus ac mattis porta.
-                                
-                                Vivamus ligula quam, vehicula non lacinia sed, faucibus sit
-                                amet libero. In libero dui, eleifend eu nisi id, egestas fringilla odio. In
-                                varius quam a mas sa hendrerit ullamcorper a eu justo. Suspendisse porta mattis
-                                convallis. Aenean tempus ligula ac odio rhoncus, quis aliquam dolor accumsan.
-                                
-                                Suspendisse aliquet felis consectetur libero congue, sed pulvinar diam
-                                malesuada. Duis vehicula a nibh id hendrerit. Donec sit amet ultrices ante, a
-                                mattis massa.
-                            </p>
+                        <div class="b-introducing">
+                            <div class="title">
+                                <h4 class="title-introduc inline-1">
+                                    INTRODUCING THE FUDI APP
+                                </h4>
+                            </div>
+                            <div class="text">
+                                <p class="b-text">
+                                    Morbi eget posuere dolor. Pellentesque cursus aliquet aliquet. Aeneanet felis
+                                    sit amet diam mollis ullamcorper. Nullam consequat sem a ante vest ibulum
+                                    tristique. Suspendisse tristique lacus ac mattis porta.
+                                </p>
+                                <p class="b-text">
+                                    Vivamus ligula quam, vehicula non lacinia sed, faucibus sit amet libero. In
+                                    libero dui, eleifend eu nisi id, egestas fringilla odio. In varius quam a mas sa
+                                    hendrerit ullamcorper a eu justo. Suspendisse porta mattis convallis. Aenean
+                                    tempus ligula ac odio rhoncus, quis aliquam dolor accumsan.
+                                </p>
+                                <p class="b-text">
+                                    Suspendisse aliquet felis consectetur libero congue, sed pulvinar diam
+                                    malesuada. Duis vehicula a nibh id hendrerit. Donec sit amet ultrices ante, a
+                                    mattis massa.
+                                </p>
+                            </div>
+                            <div class="group-img">
+                                <img src="/src/images/app-store.png" alt="" class="app-store">
+                                <img src="/src/images/ch-play.png" alt="" class="ch-play">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     <!-- include slider.html -->
-    <section class="b-page-slide">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 offset-lg-3">
-                <div class="lazy-item-1 b-carousel text-center">
-                    <div>
-                        <div class="b-images">
-                            <img
-                                data-lazy="./images/slide_slick.png"
-                                data-srcset="./images/slide_slick.png 650w, ./images/slide_slick.png 960w"
-                                data-sizes="100vw"></div>
-                            <div class="b-content">
-                                <img src="./images/person.png" alt="" class="img-person">
-                                    <p class="b-text">
-                                        “I am so happy because I found this recipe, and it just made my life easier.
-                                        Thanks so much for sharing!”
+    <section class="b-page-slider">
+    <div class="container-fuild">
+        <div class="mySlider">
+            <div class="item">
+                <img src="/src/images/slider.png" alt="">
+                    <div class="b-content text-center">
+                        <img src="./images/person.png" alt="" class="img-person">
+                            <p class="b-text">
+                                “I am so happy because I found this recipe, and it just made my life easier.
+                                Thanks so much for sharing!”
 
-                                    </p>
-                                    <p class="p-current">
-                                        <span class="b-person">- Michael Dawson, San Francisco, CA -</span>
-                                    </p>
-                                </div>
+                            </p>
+                            <p class="b-current">
+                                <i class="b-person">- Michael Dawson, San Francisco, CA -</i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/src/images/slider.png" alt="">
+                        <div class="b-content text-center">
+                            <img src="./images/person.png" alt="" class="img-person">
+                                <p class="b-text">
+                                    “I am so happy because I found this recipe, and it just made my life easier.
+                                    Thanks so much for sharing!”
+    
+                                </p>
+                                <p class="b-current">
+                                    <i class="b-person">- Michael Dawson, San Francisco, CA -</i>
+                                </p>
                             </div>
-                            <div>
-                                <div class="b-images">
-                                    <img
-                                        data-lazy="./images/slide_slick.png"
-                                        data-srcset="./images/slide_slick.png 650w, ./images/slide_slick.png 960w"
-                                        data-sizes="100vw"></div>
-                                    <div class="p-content">
-                                        <img src="./images/person.png" alt="" class="img-person">
-                                            <p class="p-text">
-                                                “I am so happy because I found this recipe, and it just made my life easier.
-                                                Thanks so much for sharing!”
-
-                                            </p>
-                                            <p class="b-current">
-                                                <span class="b-person">- Michael Dawson, San Francisco, CA -</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="b-images">
-                                            <img
-                                                data-lazy="./images/slide_slick.png"
-                                                data-srcset="./images/slide_slick.png 650w, ./images/slide_slick.png 960w"
-                                                data-sizes="100vw"></div>
-                                            <div class="b-content">
-                                                <img src="./images/person.png" alt="" class="img-person">
-                                                    <p class="b-text">
-                                                        “I am so happy because I found this recipe, and it just made my life easier.
-                                                        Thanks so much for sharing!”
-
-                                                    </p>
-                                                    <p class="b-current">
-                                                        <span class="b-person">- Michael Dawson, San Francisco, CA -</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+                    </div>
+                        <div class="item">
+                            <img src="/src/images/slider.png" alt=""></div>
+                        </div>
+                    </div>
+                </section>
 
     <!-- include cusines.html -->
-    <section class="b-page-cusines">
-    <div class="container">
+    <section class="b-page-cussines">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
                 <h4 class="heading-title text-center inline-1">BROWSE BY CUISINES</h4>
@@ -209,47 +192,67 @@
         </div>
         <div class="row">
             <div class="img-eat img-1">
-                <p class="b-price">327 Recipes</p>
-                <h2 class="eat-title">ITALIAN</h2>
+                <div class="content-img">
+                    <p class="b-price">327 Recipes</p>
+                    <h2 class="eat-title">ITALIAN</h2>
+                </div>
             </div>
             <div class="img-eat img-2">
-                <p class="b-price">327 Recipes</p>
-                <h2 class="eat-title">ITALIAN</h2>
+                <div class="content-img">
+                    <p class="b-price">856 Recipes</p>
+                    <h2 class="eat-title">INDIAN</h2>
+                </div>
             </div>
             <div class="img-eat img-3">
-                <p class="b-price">327 Recipes</p>
-                <h2 class="eat-title">ITALIAN</h2>
+                <div class="content-img">
+                    <p class="b-price">327 Recipes</p>
+                    <h2 class="eat-title">ITALIAN</h2>
+                </div>
             </div>
             <div class="img-eat img-4">
-                <p class="b-price">327 Recipes</p>
-                <h2 class="eat-title">ITALIAN</h2>
+                <div class="content-img">
+                    <p class="b-price">27 Recipes</p>
+                    <h2 class="eat-title">FRENCH</h2>
+                </div>
             </div>
             <div class="img-eat img-5">
-                <p class="b-price">327 Recipes</p>
-                <h2 class="eat-title">ITALIAN</h2>
+                <div class="content-img">
+                    <p class="b-price">174 Recipes</p>
+                    <h2 class="eat-title">STEAKHOUSE</h2>
+                </div>
             </div>
 
         </div>
         <div class="row">
             <div class="img-eat img-6">
-                <p class="b-price">327 Recipes</p>
-                <h2 class="eat-title">ITALIAN</h2>
+                <div class="content-img">
+                    <p class="b-price">731 Recipes</p>
+                    <h2 class="eat-title">SEAFOOD</h2>
+                </div>
             </div>
             <div class="img-eat img-7">
-                <p class="b-price">327 Recipes</p>
-                <h2 class="eat-title">ITALIAN</h2>
+                <div class="content-img">
+                    <p class="b-price">529 Recipes</p>
+                    <h2 class="eat-title">MEXICAN</h2>
+                </div>
             </div>
             <div class="img-eat img-8">
-                <p class="b-price">327 Recipes</p>
-                <h2 class="eat-title">ITALIAN</h2>
+                <div class="content-img">
+                    <p class="b-price">145 Recipes</p>
+                    <h2 class="eat-title">CHINESE</h2>
+                </div>
             </div>
             <div class="img-eat img-9">
-                <p class="b-price">327 Recipes</p>
-                <h2 class="eat-title">ITALIAN</h2>
+                <div class="content-img">
+                    <p class="b-price">327 Recipes</p>
+                    <h2 class="eat-title">PIZZA</h2>
+                </div>
             </div>
             <div class="img-eat img-10">
-                <p class="b-price">327 Recipes</p>
-                <h2 class="eat-title">ITALIAN</h2>
+                <div class="content-img">
+                    <p class="b-price">1,437 Recipes</p>
+                    <h2 class="eat-title">AMERICAN</h2>
+                </div>
             </div>
         </div>
         
@@ -308,8 +311,12 @@
 <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
 <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 <!-- endbuild -->
+<!-- slick -->
+<script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
 <!-- build:js script/script.min.js -->
 <script type="text/javascript" src="scripts/script.js"></script>
 <!-- endbuild -->
+
+
 </body>
 </html>
